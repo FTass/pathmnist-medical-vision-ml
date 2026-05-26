@@ -12,3 +12,4 @@ por otro lado, tienen una carpeta `src` en la cual tendremos distintos tipos de 
 - Vistas y plots relevantes para el proceso de entrenamiento
 
 Esta carpeta se realizó netamente para mantener un orden modular en el proyecto y dejar lo más legible posible el notebook principal
+> MUY IMPORTANTE: no se puede como tal importar un data set completo, la librería nos ofrece importar los splits oficiales como train, validation y test. Tienen que ver como juntarlos todos, almenos el seba para el eda. ya para el entrenamiento lo bueno es que tienen separado los conjuntos, asi que teóricamente no deberian tener problema y debiera ser dentro de todo sencillo. Porfa leanse el enunciado tambien
