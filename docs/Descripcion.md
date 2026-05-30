@@ -1,0 +1,13 @@
+# Definición, importancia y contexto clínico del problema médico.
+
+El cáncer colorrectal corresponde a una de las principales causas de mortalidad por cáncer a nivel mundial. Su diagnóstico y clasificación temprana son fundamentales para aumentar las probabilidades de tratamiento exitoso y mejorar la supervivencia de los pacientes. Dentro del proceso diagnóstico, la histopatología cumple un rol esencial, ya que permite analizar muestras de tejido obtenidas mediante biopsias o cirugías utilizando imágenes microscópicas teñidas, generalmente con hematoxilina y eosina (H&E).
+
+El dataset utilizado en este proyecto, PathMNIST, pertenece al conjunto de datos médicos MedMNIST y está enfocado en imágenes histopatológicas de colon. Su objetivo es la clasificación multiclase de distintos patrones tisulares presentes en muestras de tejido colorrectal. Cada imagen representa un pequeño fragmento de tejido observado al microscopio y debe ser clasificado en una de nueve categorías distintas.
+
+El problema clínico asociado consiste en identificar correctamente estructuras celulares y patrones morfológicos relevantes dentro de las imágenes médicas. Este proceso normalmente es realizado por médicos especialistas en anatomía patológica, quienes deben analizar grandes cantidades de muestras para detectar tejido sano, inflamación, alteraciones celulares o presencia de cáncer. Sin embargo, este análisis puede ser lento, costoso y susceptible a variabilidad humana, especialmente cuando existen grandes volúmenes de datos clínicos.
+
+En este contexto, las técnicas de aprendizaje profundo y visión computacional han tomado gran relevancia dentro del área médica. Los modelos convolucionales (CNN) permiten aprender automáticamente características visuales complejas directamente desde las imágenes, facilitando tareas de clasificación médica con altos niveles de precisión. Estas herramientas no buscan reemplazar al especialista, sino actuar como sistemas de apoyo al diagnóstico, ayudando a acelerar el análisis y reducir posibles errores.
+
+El uso de datasets estandarizados como PathMNIST permite evaluar y comparar distintos modelos de inteligencia artificial bajo condiciones controladas. Además, debido a que las imágenes poseen una resolución reducida de 28x28 píxeles, el conjunto resulta adecuado para experimentar con arquitecturas convolucionales eficientes y técnicas de fine-tuning utilizando modelos pre-entrenados.
+
+Por lo tanto, este trabajo aborda un problema real del ámbito biomédico: la clasificación automática de imágenes histopatológicas colorrectales mediante redes neuronales convolucionales, explorando el potencial de la inteligencia artificial como apoyo en el diagnóstico clínico.
